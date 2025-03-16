@@ -1,0 +1,4 @@
+var 0..4: x;
+var 1..3: y;
+
+solve satisfy;
