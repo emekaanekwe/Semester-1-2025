@@ -2,8 +2,58 @@ import numpy as np
 import random
 
 
+
+def main():
+    print("enviro")
+    pass
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    
+    # sample conditions
+    width = 3
+    height = 3
+    
+    empty = []
+    
+    
+    colors = []
+    agents = []
+    
+    
+    similarity = None
+    avg = []
+    threshold = []
+    
+    
+    main()
+
+
+
+
+
+
+
+'''
 class Environment:
-    def __init__(self, x, y):
+    def __init__(self, width, height, simlarity, gen, empy_ratio):
+        self.width = width
+        self.height = height
+        
+        self.similarity = simlarity
+        self.gen = gen
+        self.empty_ratio = empy_ratio
+        self.grid = []
+        self.agents = []
         self.state = 0
         self.grid = np.zeroes(x,y)
         
@@ -17,7 +67,7 @@ class Environment:
     def step(self):
         self.rain = random.randint(0,1)
             
-        '''
+        
         for el in grid:
             if self.x == 0 and self.y == 0:
                 rain = random.randint(0,1)
@@ -27,7 +77,7 @@ class Environment:
             for j in i:
             
                 if 
-                '''
+                
                     # agent moves
                     # if moves to rain
                     # reset
@@ -77,3 +127,4 @@ class Agent(Environment):
 #def __name__ if main
 
     #reset_sim()
+'''
