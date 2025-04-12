@@ -46,8 +46,8 @@ import sys
 
 from game import Actions, Directions, Game, GameStateData
 from layout import getLayout
-from logs import search_logger
-from util import import_by_name, manhattanDistance, nearestPoint
+#from logs import search_logger
+#from util import import_by_name, manhattanDistance, nearestPoint
 
 ###################################################
 # YOUR INTERFACE TO THE PACMAN WORLD: A GameState #

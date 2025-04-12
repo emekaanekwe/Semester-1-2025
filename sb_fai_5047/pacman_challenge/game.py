@@ -25,8 +25,8 @@ import sys
 import time
 import traceback
 from math import ceil
-from logs.search_logger import log_function
-from util import *
+#from logs.search_logger import log_function
+#from util import *
 
 #######################
 # Parts worth reading #
