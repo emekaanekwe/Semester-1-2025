@@ -1,0 +1,9 @@
+modules:
+numpy
+random
+matplotlib.pyplot
+pytest
+
+python version = 3.12
+
+OS verified = [Ubuntu 24.04.1]
