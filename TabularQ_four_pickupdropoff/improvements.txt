@@ -1,0 +1,10 @@
+[fix errors]
+1. change collision
+2. visualize how agents are moving
+3. research central clock 
+4. use states training
+5. remove neighboring agents bc it adds extra noise.
+
+1. refactor for test cases
+2. use a heat map for visualization
+3. 
